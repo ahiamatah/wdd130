@@ -1,5 +1,12 @@
 body {
-  
+  background-color: #fcfbfb; 
+}
+header {
+  background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+  background-color: black;
+  color: #d9c2a3;
 }
 #content {
   max-width: 1600px;
@@ -12,6 +19,7 @@ nav {
   border: 2px solid blue;
   background-color: steelblue;
   padding: 10px;
+  color: #fcfbfb;
 }
 a {
   font-size: 1.5em;
@@ -69,4 +77,49 @@ footer {
 
 main section {
   text-align: center;
+}
+
+#background {
+  height: 725px;
+}
+
+.icon {
+  width: 80px;
+}
+#hero-img {
+  width: 100%;
+}
+.home-title{
+  color: #000000;
+}
+h4 {
+  color: #050505;
+}
+.book, .join {
+  color: #0a0a0a;
+}
+.book:hover, .join:hover {
+  color: #070707;
+}
+.msg h2 {
+  color: #0a0a0a;
+}
+.msg p {
+  color: #000000;
+}
+footer {
+  color: #000000;
+}
+footer a {
+  color: #000000;
+}
+footer a:hover {
+  color: #000000;
+}
+footer p a:hover {
+  text-decoration: underline;
+} 
+
+.social {
+  width: 80px;
 }
