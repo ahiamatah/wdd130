@@ -27,6 +27,7 @@ a:hover {
 h1 {
   text-align: center;
   color: steelblue;
+  margin: 10px 0;
 }
 img {
   width: 80%;
@@ -48,6 +49,7 @@ footer {
   text-align: center;
   background-color: steelblue;
   color: white;
+padding: 5px;
 }
 .main-para{
   font-size: 1.5em;
