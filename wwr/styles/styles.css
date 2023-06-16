@@ -34,6 +34,8 @@ main section img {
     box-sizing: border-box;
 }
 
+
+
 #background {
     height: 725px;
     background-color: #887057;
@@ -247,9 +249,29 @@ footer .social img {
     transform: scale(1.3);
 }
 
+/* Rivers page css */
+.rivers-hero-image {
+    width: 100%;
+    height: 70%;
+    
+}
 
-
-
+.rivers-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.rivers-section p {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rivers-p1, .rivers-h2 {
+    padding: 20px;
+}
+.rivers-page-main {
+    margin-left: 70px;
+    margin-right: 70px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
