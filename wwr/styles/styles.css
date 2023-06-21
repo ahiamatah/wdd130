@@ -288,6 +288,9 @@ footer .social img {
     margin-top: 3em;
 }
 
+
+/* forms */
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -296,6 +299,7 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    margin-top: 15%;
   }
   
   ul {
