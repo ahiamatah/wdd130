@@ -59,18 +59,18 @@ header a:hover {
 }
 
 
-main p {
+main p, #text-container p {
   color: var(--headline-color-on-color);
   font-family: var(--paragraph-font);
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: lighter;
 }
 
-main h2 {
+main h2, #text-container h2 {
   color: var(--headline-color-on-white);
   font-family: var(--heading-font);
   font-size: 6vw;
-  font-weight: 400;
+  font-weight: lighter;
 }
 
 /* about-botton */
@@ -175,6 +175,8 @@ header nav {
     color: var(--nav-link-color);
 }
 
+
+
 /* main */
 
 main div img {
@@ -186,11 +188,48 @@ main div img {
 main {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    padding-top: 5em;
-    padding-bottom: 3em;
+    grid-template-rows: repeat(13, 1fr);
 
     
+}
+#text-container {
+  grid-column: 1/17;
+  grid-row: 1/6;
+}
+/* text-container */
+#text-container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+#text-h2 {
+  grid-column: 2/16;
+  grid-row: 2/3;
+}
+
+#text-p1 {
+  grid-column: 2/16;
+  grid-row: 3/4;
+}
+
+#text-p2 {
+  grid-column: 2/16;
+  grid-row: 4/6;
+}
+
+/* main-pics */
+#main-pics {
+  grid-column: 1/17;
+  grid-row: 6/14;
+  padding-top: 5vw;
+  padding-bottom: 3vw;
+}
+
+#main-pics {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(8, 1fr);
 }
 #main-1 {
     grid-column: 2/6;
