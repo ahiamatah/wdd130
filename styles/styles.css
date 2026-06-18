@@ -1,5 +1,5 @@
 nav {
-    background-color: darkblue;
+    background-color: rgb(60, 132, 184);
     padding: 10px;
 }
 
@@ -9,18 +9,43 @@ nav a {
     padding: 20px;
 }
 
-h1 {
-    color: darkblue;
+main {
+    max-width: 840px;
 }
 
-img {
+aside {
+    max-width: 20em;
+    margin: 1em;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(60, 132, 184);
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(185, 185, 185);
+}
+
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: solid #000 2px;
+    text-align: center;
 }
