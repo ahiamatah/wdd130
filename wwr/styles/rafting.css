@@ -1,8 +1,7 @@
 :root {
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    --primary-color: #175596;
+    --secondary-color: white;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -30,7 +29,6 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
 }
 
 nav,
@@ -39,6 +37,14 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+section h2 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--heading-font);
 }
 
 .socialmedia a {
