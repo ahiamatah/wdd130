@@ -19,6 +19,34 @@ body {
     color: var(--accent1-color);
 }
 
+header {
+    display: flex;
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+
 header,
 main,
 footer {
