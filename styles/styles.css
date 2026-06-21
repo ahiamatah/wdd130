@@ -13,7 +13,7 @@ body {
 :root {
     --primary-color: rgb(60, 132, 184);
     --accent-color: #eee;
-    --h1-font: arial, sans-serif;
+    --h1-font: Roboto, arial, sans-serif;
     --paragraph-font: Montserrat, Helvetica, sans-serif;
     --font-size-large: 24px;
 }
@@ -30,6 +30,8 @@ nav {
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
+    font-family: var(--paragraph-font);
+    font-weight: 500;
 }
 
 nav a {
@@ -55,11 +57,6 @@ aside h2 {
     color: white;
 }
 
-h1 {
-    color: rgb(60, 132, 184);
-    padding: 1rem;
-}
-
 main img {
     width: 150px;
     height: auto;
@@ -67,11 +64,16 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px rgb(185, 185, 185);
     float: right;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 main h1 {
-    border-bottom: 1.5rem;
+    border-bottom: 2rem;
+    border-bottom: solid var(--primary-color) 1px;
+    color: rgb(60, 132, 184);
+    padding-bottom: 1rem;
+    font-family: var(--h1-font);
+    text-align: center;
 }
 
 main p {
@@ -85,6 +87,7 @@ aside img {
 
 p {
     padding: 0;
+    font-family: var(--paragraph-font);
 }
 
 footer {
